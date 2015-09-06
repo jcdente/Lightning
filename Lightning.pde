@@ -3,7 +3,7 @@ int startY = 0;
 int endX = 150;
 int endY = 0;
 
-//int tY = 
+int tY = 300;
 
 int r; //red
 int g; //green
@@ -19,7 +19,7 @@ void setup()
 
 void fire() 
 {
-  //triangle(x1, y1, x2, y2, x3, y3);
+  triangle(startX-5, tY, startX+5, tY, startX, tY-5);
 }
 
 void draw()
@@ -54,5 +54,5 @@ void mouseClicked()
 {
   background(255, 255, 255, 25);
   fill(255, 0, 0);
-  ellipse(startX, 300, 20, 20);
+  fire();
 }
