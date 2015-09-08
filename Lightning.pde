@@ -10,6 +10,7 @@ int g; //green
 int b; //blue
 
 
+
 void setup()
 {
   size(300,300);
@@ -19,7 +20,7 @@ void setup()
 
 void fire() 
 {
-  triangle(startX-5, tY, startX+5, tY, startX, tY-5);
+ triangle(startX-10, tY, startX+10, tY, startX, tY-10);
 }
 
 void draw()
